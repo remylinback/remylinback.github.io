@@ -1,0 +1,21 @@
+*{
+	padding: 5;
+	margin: 5;
+}
+nav {
+	text-align: right;
+}
+h1{
+	text-align: left;
+	padding: 200px;
+}
+body {
+	font-family: Roboto, sans-serif;
+}
+img {
+  max-width: 50%;
+  height: auto;
+}
+#description {
+	text-align: right;
+}
