@@ -1,0 +1,36 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:200&display=swap);
+*{
+	padding: 0;
+	margin: 0;
+}
+nav {
+	text-align: right;
+	padding:10px;
+	background-color: black;
+}
+nav a {
+	color: white !important;
+	padding-right: 25px;
+	font-weight: 800;
+}
+h1{
+	font-family: 'muli';
+	text-align: left;
+	padding: 200px;
+	font-size: 50px;
+}
+body {
+	font-family: 'muli';
+}
+p {
+	font-size: 30px;
+}
+img {
+  max-width: 50%;
+  height: auto;
+}
+#description {
+	display: inline;
+	text-align: right;
+	font-size: 30px;
+}
