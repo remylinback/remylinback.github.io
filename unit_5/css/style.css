@@ -30,7 +30,7 @@ img {
   height: auto;
 }
 #description {
-	display: inline;
+	display: inline !important;
 	text-align: right;
 	font-size: 30px;
 }
