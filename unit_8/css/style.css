@@ -1,0 +1,177 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:200&display=swap);
+*{
+	padding: 0;
+	margin: 0;
+}
+nav {
+	text-align: right;
+	padding-right: 5em;
+	background-color:#ccc;
+}
+nav a {
+	font-family: 'muli';
+	color: white;
+	padding: 1em;
+	font-weight: 800;
+	text-decoration: none;
+	display: block;
+	float: right;
+}
+#wrapper{
+	background: #fff;
+	width: 100%;
+}
+section:last-child{
+	border-bottom: none;
+}
+h1{
+	font-family: 'muli';
+	text-align: left;
+	max-width: 20em;
+	margin: auto;
+	margin-bottom: 4em;
+	margin-top: 2em;
+	font-size: 3em;
+	padding: 2em;
+}
+p {
+	font-family: 'muli';
+	font-size: 30px;
+}
+h2 {
+	font-family: 'muli';
+	font-size: 1em;
+	font-weight: 400;
+}
+h3 {
+	font-family: 'muli';
+	font-size: .5em;
+	font-weight: 400;
+	padding-top: 5.5em;
+}
+section {
+/*height: 700px;
+*/	margin-left: 5em;
+	margin-right: 5em;
+	border-bottom: 1.4px solid black;
+}
+img {
+  max-width: 40em;
+}
+.image {
+float: left;
+display: inline-block;
+margin-top: 1.5em;
+margin-bottom: 1.5em;
+}
+aside {
+	width: 20em;
+	text-align: right;
+	font-size: 2em;
+	float: right;
+	margin-top: 5em;
+/*	margin-right: 3em;*/
+/*	background-color: orange;*/
+}
+footer {
+	text-align: center;
+	margin: auto;
+	background-color: #ccc;
+	width: 100%;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+footer p {
+	font-size: 15px;
+	color: white;
+	width: 15%;
+	float: left;
+	padding-left: 2em;
+}
+footer img {
+	max-width: 5em;
+	float: left;
+	padding-left: 2em;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+nav a:hover {
+	background-color: black;
+}
+@media only screen and (max-width: 1450px) {
+	section {
+		float: none;
+		margin:auto;
+		text-align: center;
+		border-bottom: none;
+	}
+	.image {
+		float: none; 
+		margin:auto;
+		padding-top: 1em;
+	}
+	aside {
+		margin:auto;
+		text-align: center;
+		float: none;
+	}
+	img {
+		margin:auto;
+	}
+	h1 {
+		padding: none;
+		margin:auto;
+	}
+	h2 {
+		padding-top: .3em;
+	}
+	h3 {
+		padding-top: .5em;
+		padding-bottom: 2em;
+		margin:auto;
+	}
+	footer p {
+		font-size: 15px;
+		color: white;
+		width: 15%;
+		float: left;
+		padding-left: 5%;
+	}
+	footer img {
+		max-width: 5em;
+		float: left;
+		padding-left: 5%;
+	}
+}
+@media only screen and (max-width: 700px) {
+	img {
+		max-width: 90%;
+	}
+	nav a {
+		float: none;
+		text-align: center;
+	}
+	nav {
+		text-align: center;
+		padding: .5em;
+		background-color:#ccc;
+	}
+	footer p {
+		font-size: 15px;
+		color: white;
+		width: 15%;
+		float: left;
+		padding-left: 10%;
+	}
+	footer img {
+		max-width: 5em;
+		float: left;
+		padding-left: 10%;
+	}
+}
