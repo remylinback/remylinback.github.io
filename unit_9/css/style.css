@@ -1,0 +1,146 @@
+@import url(https://fonts.googleapis.com/css?family=Muli:200&display=swap);
+*{
+	padding: 0;
+	margin: 0;
+}
+nav {
+	text-align: right;
+	padding-right: 5em;
+	background-color:#000;
+}
+nav a {
+	font-family: 'muli';
+	color: white;
+	padding: 1em;
+	font-weight: 800;
+	text-decoration: none;
+	display: block;
+	float: right;
+}
+span {
+	margin-top: 1em;
+	display: block;
+}
+#wrapper{
+	background: #fff;
+	width: 100%;
+}
+section:last-child{
+	border-bottom: none;
+}
+h1{
+	font-family: 'muli';
+	text-align: left;
+	max-width: 20em;
+	margin: auto;
+	font-size: 3em;
+	padding: 4em 2em 6em 2em;
+}
+p {
+	font-family: 'muli';
+	font-size: 30px;
+}
+h2 {
+	font-family: 'muli';
+	font-size: 1em;
+	font-weight: 400;
+}
+h3 {
+	font-family: 'muli';
+	font-size: .5em;
+	font-weight: 400;
+}
+section {
+	border-bottom: 1.4px solid black;
+	padding-bottom: 2em;
+	padding-top: 2em;
+}
+img {
+  	width: 45%;
+  	float: left;
+	/*margin-top: 1.5em;
+	*/padding-left: 5%;
+}
+.description {
+	width: 45%;
+	text-align: right;
+	font-size: 2em;
+	float: left;
+	/*margin-top: 5em;
+	*/padding-right: 5%;
+}
+footer {
+	text-align: center;
+	margin: auto;
+	background-color: #000;
+	padding-top: 1em;
+	padding-bottom: 1em;
+}
+footer p {
+	font-size: 15px;
+	color: white;
+	width: 15%;
+	float: left;
+/*	padding-left: 2em;*/
+}
+footer img {
+	max-width: 5em;
+	float: left;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	content: " ";
+	clear: both;
+	height: 0;
+	font-size: 0;
+}
+nav a:hover {
+	background-color: black;
+}
+@media only screen and (max-width: 800px) {
+	section {
+		float: none;
+		margin:auto;
+		text-align: center;
+		border-bottom: none;
+	}
+	img {
+		float: none; 
+		width: 80%;
+		background-color: orange;
+		padding: none;
+		margin: none;
+	}
+	.description {
+		margin:auto;
+		text-align: center;
+		float: none;
+	}
+	h1 {
+		padding: none;
+		margin:auto;
+	}
+	h2 {
+		padding-top: .3em;
+		background-color: orange;
+	}
+	h3 {
+		margin:auto;
+		background-color: orange;
+	}
+	footer p {
+		font-size: 15px;
+		color: white;
+		width: 15%;
+		float: left;
+		padding-left: 5%;
+	}
+	footer img {
+		max-width: 5em;
+		float: left;
+		padding-left: 5%;
+	}
+}
